@@ -37,7 +37,7 @@ Required npm packages:
 `git clone https://github.com/rxality/Discord-Music-Bot`
 2. Update the `config.example.json` to `config.json` along with updating \
 the configurations within the file.
-3. Run `node deploy-commands.js`
+3. Run `node guild-deploy-commands.js` or `node global-deploy-commands.js` depending on if you want the command only in your guild or globally.
 4. Run `node .` in the same directory as the `index.js` file in your terminal
 
 # Config
