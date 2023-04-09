@@ -18,7 +18,7 @@ const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('
 const eventsPath = path.join(__dirname, 'events');
 const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
 
-const poruEventsPath = path.join(__dirname, 'poruEvents');
+const poruEventsPath = path.join(__dirname, 'PoruEvents');
 const poruEventFiles = fs.readdirSync(poruEventsPath).filter(file => file.endsWith('.js'));
 
 /* This line of code is creating a new instance of the `Spotify` class from the `poru-spotify` package,
