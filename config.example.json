@@ -1,0 +1,19 @@
+{
+	"token": "bot token",
+	"clientId": "bot client id",
+	"guildId": "testing guild id",
+	"designatedChannelId": "channel id for bot to only listen to",
+	
+	"spotify": {
+		"spotifyClientId": "spotify client id",
+		"spotifyClientSecret": "spotify client secret"
+	},
+	"nodes": [
+		{
+		  "name": "name of node",
+		"host": "ip of node",
+		"port": "port of node as an integer",
+		"password": "password of node"
+	  }
+	  ]
+}

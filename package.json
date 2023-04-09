@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "poru": "^4.2.0",
+    "poru-spotify": "^2.0.2"
+  }
+}
