@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/348195341717209093?style=flat-square)](http://discordapp.com/users/220418804176388097)
+[![Discord](https://img.shields.io/discord/348195341717209093?style=flat-square)](https://discord.gg/rxality)
 ![Github Stars](https://img.shields.io/github/stars/rxality/Discord-Music-Bot?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/rxality/Discord-Music-Bot?style=flat-square)
 
