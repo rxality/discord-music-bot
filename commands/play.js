@@ -26,7 +26,7 @@ module.exports = {
         if (config.designatedChannelId && interaction.channelId != config.designatedChannelId) {
             const embed = new EmbedBuilder().setDescription(`You can only use this command in <#${
                 config.designatedChannelId
-            }.`).setColor(0x2F3136);
+            }>.`).setColor(0x2F3136);
 
             return interaction.editReply({embeds: [embed], ephemeral: true});
         };
