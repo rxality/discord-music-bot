@@ -50,6 +50,7 @@ assigns it to the `commands` property of the `client` object. This `Collection` 
 to store all the commands that the bot can execute. */
 client.poru = new Poru(client, config.nodes, PoruOptions);
 client.commands = new Collection();
+client.guildPlayer = {};
 
 
 /* This code block is reading all the files in the `commands` directory and filtering out only the ones

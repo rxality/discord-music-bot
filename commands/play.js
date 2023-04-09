@@ -65,6 +65,8 @@ module.exports = {
             volume: 75
         });
 
+        interaction.client.guildPlayer[interaction.guildId] = player;
+
 
         if (loadType == "TRACK_LOADED" && tracks.length == 1) {
             const track = tracks[0];
