@@ -21,7 +21,7 @@ module.exports = {
      * @returns {null}
      */
     async execute(interaction) {
-        await interaction.deferReply(ephemeral = true);
+        await interaction.deferReply({ephemeral: true});
 
         if (config.designatedChannelId && interaction.channelId != config.designatedChannelId) {
             const embed = new EmbedBuilder().setDescription(`You can only use this command in <#${
