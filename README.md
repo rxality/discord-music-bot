@@ -2,19 +2,9 @@
 ![Github Stars](https://img.shields.io/github/stars/rxality/Discord-Music-Bot?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues-raw/rxality/Discord-Music-Bot?style=flat-square)
 
-## Table of contents
-
-- [About](#about)
-- [Getting Started](#getting-started)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Configurations](#config)
-- [Features](#features)
-- [Resources](#resources)
-
 # About
 
-This project is free to be used by anyone. This is meant to be an introduction to using Node.js with the discord api to further improve my understanding of javascript. If there are any suggestions or concerns/errors then open an issue or make a pull request and it will be reviewed shortly. If you're not comfortable reaching out publicly then send me friend request and message me on discord @ rxality#0001.
+A discord bot built on discord.js for playing music via discord.
 
 # Getting Started
 
@@ -67,9 +57,6 @@ the configurations within the file.
 application commands. Feel free to make modifications to transition to your\
 own approach of text-based commands.
 
-- Guild application commands sync immediately
-- Global application commands take up to an hour to appear after syncing
-
 # Features
 
 - /play - Searches Spotify for a requested track and plays it through YouTube music.
@@ -77,15 +64,3 @@ own approach of text-based commands.
 - /shuffle - Randomly sorts the songs present in the queue.
 - /skip - Skips the currently playing song (and stops the music player if no more tracks are available to be played).
 - /stop - Clears the queue and exits the music player.
-
-# Resources
-
-- [Building and hosting a Discord bot with Node.js on Replit](https://docs.replit.com/tutorials/nodejs/build-basic-discord-bot-nodejs)
-- [How to install Node.js](https://discordjs.guide/preparations/#installing-node-js)
-- [Free lavalink hosting](https://lavalink-list.darrennathanael.com/)
-- [Lavalink](https://github.com/freyacodes/Lavalink)
-
-- How to clone a repository:
-    1. [Windows](https://www.jcchouinard.com/clone-github-repository-on-windows/)
-    2. [Linux](https://www.technipages.com/how-to-clone-a-git-repository-in-linux/)
-    3. [MacOs](https://blogs.sap.com/2019/07/12/how-to-clone-a-github-repository-to-local-mac-computer/)
